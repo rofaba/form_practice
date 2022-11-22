@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="top"> 20% de descuento en todos los productos</div>
+        <div class="cabecera">
+            <img id="logo" src="img/logo.png" alt="logo">
+            <span id="nombre">Nombre Tienda</span>
+            <div class="subcabecera">
+                <div class="nav">
+                    <ul class="nav">
+                        <li>Contacto</li>
+                        <li>Registrame</li>
+                        <li>Ingresar</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="#" method="post">
+
+                <h2> Añadí tu super! </h2>
+
+                <p class="subtitle"> Agregá tu personaje favorito completando las opciones </p>
+
+                <div class="uno">
+
+                    <div id="name_form">
+                        <label for="nombre"> * Nombre</label>
+                        <input class="date" type="text">
+
+                    </div>
+                    <br>
+                    <div id="specie_form">
+                        <label for=""> * Especie</label>
+                        <select class="date" name="" id="">
+                            <option class="especie" placeholder="especie" value="Especie">Especie</option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="dos">
+                    <div id="date_form">
+                        <label for="">Fecha</label>
+                        <input class="date" type="date">
+                    </div>
+                    <div id="file_form">
+                        <label for=""> Agregar foto </label>
+                        <input id="file" type="file">
+                    </div>
+                </div>
+
+                <div class="tres">
+
+                    <div class="text_area">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </div>
+
+                    <div class="aside">
+                        <div class="poderes">
+                            <p id="poder_title">Poderes</p>
+
+                            <label class="label-especial" for="series"> <input type="checkbox" name="poderes"
+                                    placeholder="Especie"> Volar</label>
+
+                            <label class="label-especial" for="series"> <input type="checkbox" name="poderes"
+                                    placeholder="Especie"> Super Inteligencia</label>
+                            <label class="label-especial" for="series"> <input type="checkbox" name="poderes"
+                                    placeholder="Especie"> Visión de rayo laser</label>
+                            <label class="label-especial" for="series"> <input type="checkbox" name="poderes"
+                                    placeholder="Especie"> Billetera Gorda</label>
+
+                        </div>
+                        <hr>
+                        <div class="tipoPersonaje">
+                            <p id="tipo_title">Tipo de personaje</p>
+
+
+                            <label for=""> <input type="radio"> Heroe /Heroina</label>
+
+                            <label for=""> <input type="radio"> Villano / Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="boton_inferior">
+                    <button type="submit"> Añadir </button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p> Todos los derechos reservados a <span> front end i</span>    </p>
+    </footer>
+
+    </main>
+</body>
+
+</html>
